@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry
+ *
+ * Return: 0 (success)
+ */
 int main(void)
 {
 int n;
