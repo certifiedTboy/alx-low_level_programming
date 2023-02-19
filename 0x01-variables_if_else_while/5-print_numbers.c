@@ -2,17 +2,17 @@
 /**
  * main - Entry point
  *
- * Description: Prints all the single base 10 digits (0 - 9)
+ * Description: prints all the single base 10 digits from 0 - 9
  *
- * Return: 0 (Success)
+ * Return: 0 (success)
  */
 int main(void)
 {
-int i;
-/* The loop goes while i < 10, and i increases by one every loop*/
-for ( i = 0; i < 10; i++ )
-{
-printf( "%d\n", i );
-}
+int num = 0;
+do {
+printf("%d", num);
+num++;
+} while (num < 10);
+printf("\n");
 return (0);
 }
