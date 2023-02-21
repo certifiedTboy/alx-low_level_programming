@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * Print alphabet from a - z
  *
  * Return: Always 0.
  */
@@ -18,4 +18,5 @@ for (chars = 'a'; chars <= 'z'; chars++)
 {
 _putchar(chars);
 }
+_putchar('\n');
 }
