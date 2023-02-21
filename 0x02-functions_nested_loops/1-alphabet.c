@@ -5,13 +5,7 @@
  *
  * Return: Always 0.
  */
-int main()
-{
-print_alphabet();
-return (0);
-}
-
-void print_alphabet()
+void print_alphabet(void)
 {
 char chars;
 for (chars = 'a'; chars <= 'z'; chars++)
