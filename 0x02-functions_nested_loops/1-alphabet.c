@@ -16,6 +16,6 @@ void print_alphabet()
 char chars;
 for (chars = 'a'; chars <= 'z'; chars++)
 {
-putchar(chars);
+_putchar(chars);
 }
 }
