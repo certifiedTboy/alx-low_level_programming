@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <main.h>
-
+/* more headers goes there */
 
 /**
- * main - Entry point
+ * main - Entry
  *
- * Return: Always 0 (Success)
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -20,3 +19,4 @@ sh++;
 _putchar('\n');
 return (0);
 }
+
