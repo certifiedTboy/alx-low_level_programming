@@ -7,7 +7,7 @@
  */
 int main()
 {
-print_alphabet()
+print_alphabet();
 return (0);
 }
 
@@ -18,5 +18,4 @@ for (chars = 'a'; chars <= 'z'; chars++)
 {
 putchar(chars);
 }
-putchar('\n');
 }
